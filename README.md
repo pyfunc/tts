@@ -532,7 +532,42 @@ Po utworzeniu pliku możesz instalować zależności i zarządzać środowiskiem
 poetry install
 ```
 
+
+
+
 ## Uruchamianie
+
+
+
+
+
+
+
+
+
+
+
+2. Użycie cookiecutter jako alternatywy
+Cookiecutter to popularne narzędzie do generowania projektów z szablonów. Możemy stworzyć dedykowany szablon cookiecutter dla projektów TTS.
+2.1. Instalacja cookiecutter
+
+```bash
+pip install cookiecutter
+```
+
+Użycie szablonu z repozytorium GitHub
+```bash
+cookiecutter gh:pyfunc/cookiecutter
+```
+
+lub Użycie lokalnego szablonu
+```bash
+cookiecutter path/to/cookiecutter-tts-project/
+```
+
+
+
+
 
 ```bash
 # Ustaw uprawnienia wykonywania dla skryptów
